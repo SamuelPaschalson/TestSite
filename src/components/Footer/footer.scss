@@ -1,0 +1,298 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 224px;
+    left: 0;
+    top: 2986px;
+    overflow: hidden;
+    hr{
+        position: absolute;
+        width: 100%;
+        height: 2.5px;
+        left: 0px;
+        top: 0px;
+        background: #FF4E50;
+    }
+
+    .dream{
+        position: absolute;
+        width: 119px;
+        height: 20px;
+        left: 100px;
+        top: 38px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: flex-end;
+        color: #FF4E50;
+    }
+    .company{
+        position: absolute;
+        width: 70px;
+        height: 17px;
+        left: 340px;
+        top: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        color: #444444;
+    }
+    .partner{
+        position: absolute;
+        width: 64px;
+        height: 17px;
+        left: 579px;
+        top: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        color: #444444;
+    }
+    .about{
+        position: absolute;
+        width: 114px;
+        height: 206px;
+        left: 340px;
+        top: 68px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #999999;
+    }
+    .design{
+        position: absolute;
+        width: 83px;
+        height: 12px;
+        left: 860px;
+        top: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 1px;
+        color: #CCCCCC;
+    }
+    .areto{
+        position: absolute;
+        height: 24px;
+        left: 860px;
+        top: 59px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 224px;
+        top: 3086px;
+        .design{
+            left: 709;
+        }
+        .areto{
+            left: 689;
+        }
+        .dream{
+            left: 59;
+        }
+        .partner{
+            left: 466;
+        }
+        .company{
+            left: 286;
+        }
+        .about{
+            left: 286;
+        }
+    }
+}
+@media screen and (max-width: 1005px) {
+    .footer{
+        .design{
+            left: 789;
+        }
+        .areto{
+            left: 759;
+        }
+        .partner{
+            left: 496px;
+        }
+    }
+}
+@media screen and (max-width: 1005px) {
+    .footer{
+        .design{
+            left: 709;
+        }
+        .areto{
+            left: 679;
+        }
+        .partner{
+            left: 456px;
+        }
+    }
+}
+@media screen and (max-width: 835px) {
+    .footer{
+        .company{
+            left: 236px;
+        }
+        .about{
+            left: 236px;
+        }
+        .partner{
+            left: 416px;
+        }
+        .design{
+            left: 629;
+        }
+        .areto{
+            left: 609;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        top: 3175px;
+        .company{
+            left: 206px;
+        }
+        .about{
+            left: 206px;
+        }
+        .partner{
+            left: 386px;
+        }
+        .dream{
+            left: 39px;
+        }
+        .design{
+            left: 559;
+        }
+        .areto{
+            left: 529;
+        }
+    }
+}
+@media screen and (max-width: 725px) {
+    .footer{
+        top: 3860px;
+        .partner{
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 655px) {
+    .footer{
+        .company{
+            left: 196px;
+        }
+        .about{
+            left: 196px;
+        }
+        .partner{
+            left: 336px;
+        }
+        .dream{
+            left: 29px;
+        }
+        .design{
+            left: 519;
+        }
+        .areto{
+            left: 479;
+        }
+    }
+}
+@media screen and (max-width: 610px) {
+    .footer{
+        .company{
+            left: 196px;
+        }
+        .about{
+            left: 196px;
+        }
+        .partner{
+            left: 306px;
+        }
+        .dream{
+            left: 29px;
+        }
+        .design{
+            left: 459;
+        }
+        .areto{
+            left: 429;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .footer{
+        height: 304px;
+        .company{
+            left: 47%;
+            top: 32%;
+            transform: translate(-50%, -45%);
+            font-size: 20px;
+        }
+        .about{
+            position: absolute;
+            width: 300px;
+            height: 42px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 19px;
+            line-height: 26px;
+            padding: 0px 40px;
+            text-align: center;
+            &#text{
+                padding: 4px 9px;
+            }
+            br{
+                display: none;
+                padding-left: 10px;
+            }
+        }
+        .partner{
+            left: 50%;
+            top: 70%;
+            transform: translate(-50%, -50%);
+        }
+        .dream{
+            left: 50%;
+            top: 20%;
+            transform: translate(-50%, -50%);
+        }
+        .design{
+            left: 50%;
+            top: 80%;
+            transform: translate(-50%, -50%);
+        }
+        .areto{
+            left: 50%;
+            top: 92%;
+            transform: translate(-50%, -50%);
+            width: 110px;
+            height: 24px;
+        }
+    }
+}

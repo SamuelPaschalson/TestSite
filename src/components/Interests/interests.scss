@@ -1,0 +1,136 @@
+.interests{
+    position: absolute;
+    width: 482px;
+    height: 208px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2800px;
+    overflow: hidden;
+    .create{
+        position: absolute;
+        width: 303px;
+        height: 27px;
+        left: 100px;
+        top: -1px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        color: #444444;
+    }
+    .hi{
+        position: absolute;
+        width: 415px;
+        height: 24px;
+        left: 100px;
+        top: 60px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 14px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        color: #666666;
+    }
+    .search{
+        position: absolute;
+        width: 482px;
+        height: 40px;
+        left: 0px;
+        top: 118px;
+        input{
+            box-sizing: border-box;
+            position: absolute;
+            width: 299px;
+            height: 40px;
+            left: 0px;
+            top: 0px;
+            background: #FFFFFF;
+            border: 1px solid #D4D4D4;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+            border-radius: 3px;
+            &.enter{
+                padding-left: 8px;
+                margin-left: 8px;
+            }
+        }
+        button{
+            position: absolute;
+            width: 172.12px;
+            height: 40px;
+            left: 309px;
+            top: 0px;
+            background: #FF4E50;
+            border-radius: 40px;
+            border: none;
+            cursor: pointer;
+            &.search1{
+                position: absolute;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .interests{
+        top: 2970px;
+    }
+}
+@media screen and (max-width: 725px) {
+    .interests{
+        top: 3650px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .interests{
+        position: absolute;
+        width: 100%;
+        height: 242px;
+        right: -49px;
+        bottom: 266px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .interests{
+        position: absolute;
+        width: 100%;
+        height: 242px;
+        right: -49px;
+        bottom: 266px;
+        .create{
+            left: 50%;
+            transform: translate(-50%);
+            top: 0px;
+        }
+        .hi{
+            right: 30%;
+            transform: translate(-10%);
+            top: 43px;
+            font-size: 18px;
+        }
+        .search{
+            width: 280px;
+            height: 90px;
+            left: 40px;
+            top: 102px;
+            button{
+                left: 35%;
+                top: 60%;
+                &.search1{
+                    left: 30%;
+                }
+            }
+            input{
+                left: 5%;
+            }
+        }
+    }
+}

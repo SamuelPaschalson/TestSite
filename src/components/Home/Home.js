@@ -11,7 +11,7 @@ const Home = () => {
     <div className='home'>
         <Header/>
         <Works/>
-        <Meet/>
+        {/* <Meet/> */}
         <Idea/>
         <Interests/>
         <Footer/>

@@ -1,64 +1,8 @@
+
 .header{
-    position: absolute;
     width: 100%;
-    height: 100vh;
-    top: 0px;
-    left: 0;
-    overflow: hidden;
-    .dream{
-        position: absolute;
-        width: 152px;
-        height: 24px;
-        left: 176px;
-        top: 25px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
-        display: flex;
-        align-items: flex-end;
-        color: #FFFFFF;
-    }
-    .log{
-        position: absolute;
-        width: 44px;
-        height: 17px;
-        left: 856px;
-        top: 25px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        display: flex;
-        align-items: flex-end;
-        color: #FFFFFF;
-    }
-    button{
-        box-sizing: border-box;
-        position: absolute;
-        width: 99px;
-        height: 36px;
-        left: 906px;
-        top: 16px;
-        background: transparent;
-        border: 2px solid #FFFFFF;
-        border-radius: 40px;
-        &.sign{
-            position: absolute;
-            left: 915px;
-            padding: 0px 18px;
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;            
-            display: flex;
-            align-items: center;
-            color: #FFFFFF;
-        }
-    }
+    height: 90vh;
+    position: relative;
     .img{
         left: 0px;
         top: 0px;
@@ -90,44 +34,67 @@
             background: #000000;
         }
     }
-    .holiday{
+    .log{
         position: absolute;
-        left: 45%;
-        top: 40%;
-        transform: translate(-40%, -40%);
+        width: 75px;
+        height: 17px;
+        left: 30%;
+        top: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+    .dream{
+        position: absolute;
+        width: 152px;
+        height: 24px;
+        left: 28%;
+        top: 25%;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 52px;
-        margin: 0;
-        line-height: 63px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    .project{
-        position: absolute;
-        left: 45%;
-        top: 63%;
-        transform: translate(-35%, -40%);
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
+        font-size: 30px;
         line-height: 24px;
-        color: #F7F3F2;
         display: flex;
         align-items: flex-end;
-        text-align: center;
+        color: #FFFFFF;
+    }
+    button{
+        box-sizing: border-box;
+        position: absolute;
+        width: 99px;
+        height: 36px;
+        right: 30%;
+        top: 16px;
+        background: transparent;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        padding: 0 3px;
+        &.sign{
+            position: absolute;
+            padding: 0px 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;            
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
     }
     .button{
-
         button{
             position: absolute;
             width: 225px;
             height: 40px;
-            left: 52%;
-            top: 73%;
-            transform: translate(-60%, -55%);
+            left: 28%;
+            top: 68%;
             background: #FF4E50;
             border-radius: 40px;
             border: none;
@@ -147,422 +114,111 @@
             }
         }
     }
+    .holiday{
+        position: absolute;
+        left: 24%;
+        top: 35%;
+        width: 272px;
+        height: 74px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .project{
+        position: absolute;
+        left: 23%;
+        top: 52%;
+        width: 280px;
+        height: 49px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: #F7F3F2;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+    }
 }
-
-/* Media Queries */
-
-@media screen and (max-width: 1020px) {
+@media screen and (min-width: 1000px) {
     .header{
-        overflow: hidden;
-        .dream{
-            left: 126px;
-        }
-        .log{
-            left: 755px;
+        .img{
+            width: 100%;
         }
         button{
-            &.sign{
-                left: 820px;
-            }
+            right: 20%;
         }
-        .img{
-            left: 0px;
-            top: 0px;
-            width: 1400px;
-            .background{
-                position: absolute;
-                width: 1400px;
-                object-fit: cover;
-                height: 95vh;
-                top: 0px;
-                left: -200;
-                mix-blend-mode: normal;
-                opacity: 0.95;
-            }
-            .mask-c{
-                position: absolute;
-                width: 100%;
-                height: 95vh;
-                left: 0px;
-                top: 0px;
-                background: #000000;
-            }
+        .log{
+            left: 65%;
+        }
+        .dream{
+            top: 30px;
+            left: 10%;
         }
         .holiday{
-            position: absolute;
-            left: 45%;
-            top: 30%;
-            transform: translate(-40%, -40%);
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
-            font-weight: 700;
             font-size: 52px;
-            margin: 0;
             line-height: 63px;
-            text-align: center;
-            color: #FFFFFF;
+            width: 470px;
+            height: 126px;
+            top: 30%;
+            left: 32.5%;
         }
         .project{
-            position: absolute;
-            left: 45%;
-            top: 63%;
-            transform: translate(-35%, -40%);
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 300;
             font-size: 24px;
+            width: 396px;
+            height: 25px;
             line-height: 24px;
-            color: #F7F3F2;
-            display: flex;
-            align-items: flex-end;
-            text-align: center;
+            left: 35%;
+            top: 55%;
         }
         .button{
             button{
-                position: absolute;
-                width: 225px;
-                height: 40px;
-                left: 50%;
-                top: 40%;
-                transform: translate(-50%, -50%);
-                background: #FF4E50;
-                border-radius: 40px;
-                border: none;
-        
-                &.partner{
-                    position: absolute;
-                    top: 340px;
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 14px;
-                    display: flex;
-                    align-items: center;
-                    text-align: center;
-                    color: #FFFFFF;
-                }
+                left: 41.5%;
             }
         }
     }
 }
-
-@media screen and (max-width: 910px) {
+@media screen and (min-width: 700px) {
     .header{
-        .log{
-            left: 705px;
-        }
-        button{
-            &.sign{
-                left: 765px;
-            }
-        }
-        .holiday{
-            font-size: 40px;
-            line-height: 48px;
-        }
         .img{
-            .background{
-                left: -300px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 880px) {
-    .header{
-        .dream{
-            left: 100px;
-        }
-        .log{
-            left: 605px;
+            width: 100%;
         }
         button{
-            &.sign{
-                left: 665px;
-            }
+            right: 10%;
+        }
+        .log{
+            left: 70%;
+        }
+        .dream{
+            top: 30px;
+            left: 8%;
+            font-size: 20px;
+        }
+        .holiday{
+            font-size: 52px;
+            line-height: 63px;
+            width: 470px;
+            height: 126px;
+            top: 30%;
+            left: 20%;
         }
         .project{
-            top: 300px;
+            font-size: 24px;
+            width: 396px;
+            height: 25px;
+            top: 55%;
+            line-height: 24px;
+            left: 24%;
         }
         .button{
             button{
-                &.partner{
-                    top: 360;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 770px) {
-    .header{
-        .dream{
-            left: 70px;
-        }
-        .log{
-            left: 545px;
-        }
-        button{
-            &.sign{
-                left: 605px;
-            }
-        }
-    }
-}
-@media screen and (max-width: 705px) {
-    .header{
-        .dream{
-            left: 70px;
-        }
-        .holiday{
-            top: 200px;
-        }
-        .log{
-            left: 505px;
-        }
-        .project{
-            width: 300px;
-        }
-        button{
-            &.sign{
-                left: 565px;
-            }
-        }
-    }
-}
-@media screen and (max-width: 670px) {
-    .header{
-        .dream{
-            left: 60px;
-        }
-        .holiday{
-            top: 200px;
-            font-size: 35px;
-        }
-        .log{
-            left: 465px;
-        }
-        .project{
-            width: 300px;
-        }
-        button{
-            &.sign{
-                left: 525px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 625px) {
-    .header{
-        .dream{
-            left: 70px;
-        }
-        .holiday{
-            top: 200px;
-        }
-        .log{
-            left: 455px;
-        }
-        .project{
-            width: 300px;
-        }
-        button{
-            &.sign{
-                left: 505px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 605px) {
-    .header{
-        .dream{
-            left: 70px;
-        }
-        .holiday{
-            top: 200px;
-        }
-        .log{
-            left: 385px;
-        }
-        .project{
-            width: 300px;
-        }
-        button{
-            &.sign{
-                left: 455px;
-            }
-        }
-        .button{
-            button{
-                &.partner{
-                    top: 370px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 560px) {
-    .header{
-        .dream{
-            top: 25%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .holiday{
-            top: 210px;
-            font-weight: 900;
-            font-size: 30px;
-        }
-        .log{
-            width: 100px;
-            height: 30px;
-            left: 125px;
-            top: 20px;
-            padding: 10px 0;
-            font-size: 25px;
-        }
-        .project{
-            width: 300px;
-        }
-        button{
-            &.sign{
-                left: 240px;
-                top: 10px;
-                padding: 20px 18;
-                font-size: 20px;
-                width: 125px;
-                height: 30px;   
-            }
-        }
-        .button{
-            button{
-                width: 70%;
-                &.partner{
-                    top: 370px;
-                    padding-left: 115px;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 515px) {
-    .header{
-        .project{
-            margin-top: 20px;
-        }
-        .button{
-            button{
-                width: 70%;
-                &.partner{
-                    top: 390px;
-                    padding-left: 90px;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 450px) {
-    .header{
-        .dream{
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .button{
-            button{
-                width: 70%;
-                &.partner{
-                    top: 390px;
-                    padding-left: 70px;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 400px) {
-    .header{
-
-        .holiday{
-            top: 210px;
-            font-weight: 900;
-            font-size: 30px;
-        }
-        .log{
-            width: 100px;
-            height: 30px;
-            left: 95px;
-            top: 20px;
-            padding: 10px 0;
-            font-size: 25px;
-        }
-        .project{
-            width: 300px;
-            margin-left: -10px;
-        }
-        button{
-            &.sign{
-                left: 200px;
-                top: 10px;
-                padding: 20px 18;
-                font-size: 20px;
-                width: 125px;
-                height: 30px;   
-            }
-        }
-        .button{
-            button{
-                width: 70%;
-                &.partner{
-                    top: 390px;
-                    padding-left: 45px;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 350px) {
-    .header{
-        .dream{
-            top: 25%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .holiday{
-            top: 210px;
-            font-weight: 900;
-            font-size: 30px;
-        }
-        .log{
-            width: 100px;
-            height: 30px;
-            left: 105px;
-            top: 20px;
-            padding: 10px 0;
-            font-size: 25px;
-        }
-        .project{
-            width: 300px;
-        }
-        button{
-            &.sign{
-                left: 240px;
-                top: 10px;
-                padding: 20px 18;
-                font-size: 20px;
-                width: 125px;
-                height: 30px;   
-            }
-        }
-        .button{
-            button{
-                width: 70%;
-                &.partner{
-                    top: 390px;
-                    padding-left: 35px;
-                }
+                left: 34%;
             }
         }
     }

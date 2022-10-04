@@ -6,8 +6,11 @@ const Data = ({poster_path, title, id, overview}) => {
     <div className='step'>
       <button className="step-span1">Step 1</button>
       <span className="seo">{title}</span>
-      <span className="quis">{overview.substring(0,90)}...</span>
+      <span className="s-mask"></span>
+      <span className="s-mask1"></span>
+      <span className="s-mask2"></span>
       <img src={API_IMG+poster_path} alt="" className="step1img" />
+      <span className="quis">{overview.substring(0,90)}...</span>
     </div>
     
   )

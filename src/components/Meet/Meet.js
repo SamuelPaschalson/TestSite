@@ -1,7 +1,24 @@
 import React from 'react'
 import './meet.scss'
 import { meetdata } from './meetdata'
+import axios from 'axios'
 const Meet = () => {
+
+  const options = {
+    method: 'GET',
+    url: 'https://movies-app1.p.rapidapi.com/api/genres',
+    headers: {
+      'X-RapidAPI-Key': 'b0df475a01msh96b286db10342ebp12c946jsnefb8bc0d71c6',
+      'X-RapidAPI-Host': 'movies-app1.p.rapidapi.com'
+    }
+  };
+  
+  axios.request(options).then(function (response) {
+    console.log(response.data);
+  }).catch(function (error) {
+    console.error(error);
+  });
+  
   return (
     <div className='meet'>
         <span className="meet-partner">Meet a partner for your best holiday</span>

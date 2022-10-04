@@ -1,7 +1,7 @@
 .footer{
     position: absolute;
     width: 100%;
-    height: 224px;
+    height: 230px;
     left: 0;
     top: 2986px;
     overflow: hidden;
@@ -76,7 +76,7 @@
         position: absolute;
         width: 83px;
         height: 12px;
-        left: 860px;
+        left: 950px;
         top: 40px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -91,7 +91,7 @@
     .areto{
         position: absolute;
         height: 24px;
-        left: 860px;
+        left: 950px;
         top: 59px;
     }
 }
@@ -102,10 +102,10 @@
         height: 224px;
         top: 3086px;
         .design{
-            left: 709;
+            left: 799px;
         }
         .areto{
-            left: 689;
+            left: 789px;
         }
         .dream{
             left: 59;
@@ -191,7 +191,7 @@
 }
 @media screen and (max-width: 725px) {
     .footer{
-        top: 3860px;
+        top: 4260px;
         .partner{
             font-size: 20px;
         }

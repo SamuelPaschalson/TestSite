@@ -1,29 +1,166 @@
+// .step{
+//     position: relative;
+//     // width: 28%;
+//     margin-top: -54px;
+//     padding-left: 64px;
+//     padding: 18px 32px 32px;
+//     border-radius: 10px;
+//     .step1img{
+//         width: 300px;
+//         height: 400px;
+//         left: 0px;
+//         top: 50px;
+//         margin: 0 20px;
+//         padding: 18px 32px 32px;
+//         border-radius: 10px;
+//     }
+//     button{
+//         position: relative;
+//         width: 70px;
+//         height: 20px;
+//         left: 75px;
+//         top: 279px;
+//         border: none;
+//         background: #FF4E50;
+//         border-radius: 40px;
+//         &.step-span1{
+//             width: 70px;
+//             height: 18px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 10px;
+//             line-height: 12px;
+//             display: flex;
+//             align-items: center;
+//             letter-spacing: 2px;
+//             padding: 5px 10px;
+//             padding-left: -10px;
+//             color: #FFFFFF;
+//         }
+//     }
+//     .quis{
+//         position: relative;
+//         width: 250px;
+//         height: 57px;
+//         left: 75px;
+//         top: 360px;
+//         font-family: 'Roboto';
+//         font-style: normal;
+//         font-weight: 300;
+//         font-size: 14px;
+//         line-height: 14px;
+//         display: flex;
+//         align-items: flex-end;
+//         color: #E3E3E3;
+//     }
+//     .seo{
+//         width: 250px;
+//         height: 58px;
+//         left: 75px;
+//         top: 300px;
+//         position: relative;
+//         font-family: 'Montserrat';
+//         font-style: normal;
+//         font-weight: 700;
+//         font-size: 24px;
+//         line-height: 14px;
+//         display: flex;
+//         align-items: flex-end;
+
+//         color: #FFFFFF;
+//     }
+// }
+// @media screen and (max-width: 1125px) {
+//     .step{ 
+//         .step1img{
+//             width: 260px;
+//             margin: 0 30;
+//         }
+//     }
+// }
+// @media screen and (max-width: 1070px) {
+//     .step{ 
+//         width: 250px;
+//         .step1img{
+//             width: 240px;
+//             margin: 0 10;
+//         }
+//     }
+// }
+// @media screen and (max-width: 990px) {
+//     .step{
+//         .step1img{
+//             width: 220px;
+//         }
+//         .quis{
+//             position: relative;
+//             width: 190px;
+//             left: 50px;
+//             font-size: 10px;
+//         }
+//         .seo{
+//             font-size: 18px;
+//         }
+//     }
+// } 
+// @media screen and (max-width: 550px) {
+//     .step{
+//         .step1img{
+//             margin-left: -60px;
+//         }
+//     }
+// }
 .step{
-    width: 100%;
-    height: 600px;
     left: 0px;
-    top: 60px;
-    overflow: hidden;
+    top: -10px;
+    position: relative;
+    margin-bottom: -70px;
     .step1img{
+        position: relative;
         width: 300px;
-        height: 400px;
-        left: 0px;
-        top: 50px;
-        margin: 0 29;
-        padding: 0 10;
+        height: 240px;
+        left: 20%;
+        top: 0px;
+    }
+    .s-mask{
+        position: relative;
+        width: 300px;
+        height: 240px;
+        left: 20%;
+        top: 0px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+        border-radius: 4px;
+    }
+    .s-mask1{
+        position: relative;
+        width: 300px;
+        height: 240px;
+        left: 20%;
+        top: 55px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+        border-radius: 4px;
+    }
+    .s-mask2{
+        position: relative;
+        width: 300px;
+        height: 240px;
+        left: 20%;
+        top:55px;
+        background: linear-gradient(360deg, #FF4E50 0%, #F9D423 100%);
+        border-radius: 4px;
     }
     button{
         position: relative;
         width: 70px;
         height: 20px;
-        left: 75px;
-        top: 279px;
-        border: none;
+        left: 25%;
+        top: 90px;
         background: #FF4E50;
         border-radius: 40px;
+        border: none;
+        z-index: 2;
         &.step-span1{
-            width: 70px;
-            height: 18px;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
@@ -32,17 +169,32 @@
             display: flex;
             align-items: center;
             letter-spacing: 2px;
-            padding: 5px 10px;
-            padding-left: -10px;
+            padding-left: 13px;
             color: #FFFFFF;
         }
     }
-    .quis{
+    .seo{
         position: relative;
         width: 250px;
+        height: 58px;
+        left: 25%;
+        top: 99px;
+        z-index: 2;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 14px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+    .quis{
+        position: absolute;
+        width: 250px;
         height: 57px;
-        left: 75px;
-        top: 360px;
+        left: 25%;
+        top: 70%;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 300;
@@ -51,46 +203,5 @@
         display: flex;
         align-items: flex-end;
         color: #E3E3E3;
-    }
-    .seo{
-        width: 250px;
-        height: 58px;
-        left: 75px;
-        top: 300px;
-        position: relative;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 14px;
-        display: flex;
-        align-items: flex-end;
-
-        color: #FFFFFF;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .step{
-        .step1img{
-            width: 220px;
-            // margin-right: -50px;
-        }
-        .quis{
-            position: relative;
-            width: 190px;
-            left: 50px;
-            font-size: 10px;
-        }
-        .seo{
-            font-size: 18px;
-        }
-    }
-} 
-@media screen and (max-width: 550px) {
-    .step{
-        .step1img{
-            margin-left: -60px;
-        }
     }
 }

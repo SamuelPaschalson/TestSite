@@ -1,15 +1,1907 @@
+// .idea{
+//     position: absolute;
+//     width: 100%;
+//     height: 1031px;
+//     left: 20;
+//     top: 1713px;
+//     .discover{
+//         position: absolute;
+//         width: 350px;
+//         height: 27px;
+//         left: 40%;
+//         top: -1px;
+//         font-family: 'Montserrat';
+//         font-style: normal;
+//         font-weight: 700;
+//         font-size: 22px;
+//         line-height: 27px;
+//         display: flex;
+//         align-items: flex-end;
+//         text-align: center;
+//         color: #444444;
+//     }
+//     .sport{
+//         position: absolute;
+//         width: 300px;
+//         height: 310px;
+//         left: 175px;
+//         top: 61px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 209px;
+//             height: 27px;
+//             left: 43px;
+//             top: 142px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             align-items: center;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+//         }
+//     }
+//     .health{
+//         position: absolute;
+//         width: 300px;
+//         height: 310px;
+//         left: 500px;
+//         top: 61px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 239px;
+//             height: 27px;
+//             left: 31px;
+//             top: 142px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             align-items: center;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+//         }
+//     }
+//     .extreme{
+//         position: absolute;
+//         width: 300px;
+//         height: 310px;
+//         left: 820px;
+//         top: 61px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 187px;
+//             height: 54px;
+//             left: 57px;
+//             top: 128px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             display: flex;
+//             align-items: flex-end;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+//         }
+//     }
+//     .games{
+//         position: absolute;
+//         width: 300px;
+//         height: 310px;
+//         left: 175px;
+//         top: 391px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 80px;
+//             height: 27px;
+//             left: 110px;
+//             top: 142px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             display: flex;
+//             align-items: flex-end;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+
+//         }
+//     }
+//     .culture{
+//         position: absolute;
+//         width: 620px;
+//         height: 310px;
+//         left: 500px;
+//         top: 391px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 261px;
+//             height: 27px;
+//             left: 180px;
+//             top: 142px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             display: flex;
+//             align-items: flex-end;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 620px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 620px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 620px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+
+//         }
+//     }
+//     .culture1{
+//         position: absolute;
+//         width: 620px;
+//         height: 310px;
+//         left: 175px;
+//         top: 721px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 297px;
+//             height: 27px;
+//             left: 162px;
+//             top: 142px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             display: flex;
+//             align-items: flex-end;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 620px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 620px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 620px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+
+//         }
+//     }
+//     .travel{
+//         position: absolute;
+//         width: 300px;
+//         height: 310px;
+//         left: 820px;
+//         top: 721px;
+//         cursor: pointer;
+//         .sport-span{
+//             position: absolute;
+//             width: 80px;
+//             height: 27px;
+//             left: 110px;
+//             top: 142px;
+//             font-family: 'Montserrat';
+//             font-style: normal;
+//             font-weight: 700;
+//             font-size: 22px;
+//             line-height: 27px;
+//             display: flex;
+//             align-items: flex-end;
+//             text-align: center;
+//             color: #FFFFFF;
+//         }
+//         .sport-m{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             border-radius: 4px;
+//         }
+//         .sport-m1{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             mix-blend-mode: normal;
+//             opacity: 0.2;
+//             border-radius: 4px;
+//         }
+//         .sport-m2{
+//             position: absolute;
+//             width: 300px;
+//             height: 310px;
+//             left: 0px;
+//             top: 0px;
+//             background: #000000;
+//             border-radius: 4px;
+//         }
+//         .img-sport{
+//             position: absolute;
+//             left: 0px;
+//             top: 0px;
+
+//         }
+//     }
+// }
+// @media screen and (max-width: 1160px) {
+//     .idea{
+//         left: calc(22% - 740px/2);
+//     }
+// }
+// @media screen and (max-width: 1160px) {
+//     .idea{
+//         left: calc(22% - 740px/2);
+//     }
+// }
+// @media screen and (max-width: 990px) {
+//     .idea{
+//         left: 0;
+//         overflow: hidden;
+//         .sport{
+//             left: 15px;
+//         }
+//         .health{
+//             left: 330px;
+//         }
+//         .extreme{
+//             left: 645px;
+//         }
+//         .games{
+//             left: 15px;
+//         }
+//         .culture{
+//             width: 610px;
+//             left: 330px;
+//             .img-sport{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//             .sport-m{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//             .sport-m1{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//             .sport-m2{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//         }
+//         .culture1{
+//             width: 610px;
+//             left: 15px;
+//             .img-sport{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//             .sport-m{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//             .sport-m1{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//             .sport-m2{
+//                 width: 610px;
+//                 height: 310px;
+//             }
+//         }
+//         .travel{
+//             left: 640px;
+//         }
+//     }
+// }
+// @media screen and (max-width: 970px) {
+//     .idea{
+//         width: 100%;
+//         left: -10;
+//         .discover{
+//             left: 38%;
+//         }
+//         .sport{
+//             left: 55px;
+//             .sport-span{
+//                 left: 26px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .travel{
+//             left: 620px;
+//             .sport-span{
+//                 left: 85px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .games{
+//             left: 55px;
+//             .sport-span{
+//                 left: 90px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture{
+//             left: 335px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture1{
+//             left: 55px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//         }
+//         .extreme{
+//             left: 615px;
+//             .sport-span{
+//                 left: 20px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .health{
+//             left: 335px;
+//             .sport-span {
+//                 width: 206px;
+//                 height: 54px;
+//                 left: 25px;
+//                 top: 128px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 925px) {
+//     .idea{
+//         left: -10;
+//         .sport{
+//             left: 50px;
+//             .sport-span{
+//                 left: 26px;
+//             }
+//             .img-sport{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//         }
+//         .games{
+//             left: 50px;
+//             .sport-span{
+//                 left: 90px;
+//             }
+//             .img-sport{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//         }
+//         .health{
+//             left: 320px;
+//             .sport-span {
+//                 width: 206px;
+//                 height: 54px;
+//                 left: 25px;
+//                 top: 128px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .extreme{
+//             left: 595px;
+//             .sport-span{
+//                 left: 20px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture1{
+//             left: 50px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture{
+//             left: 315px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//         }
+//         .travel{
+//             left: 600px;
+//             .sport-span{
+//                 left: 85px;
+//             }
+//             .img-sport{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 875px) {
+//     .idea{
+//         left: 0;
+//         .sport{
+//             left: 35px;
+//             .sport-span{
+//                 left: 26px;
+//             }
+//             .img-sport{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//         }
+//         .games{
+//             left: 35px;
+//             .sport-span{
+//                 left: 90px;
+//             }
+//             .img-sport{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//         }
+//         .health{
+//             left: 300px;
+//             .sport-span {
+//                 width: 206px;
+//                 height: 54px;
+//                 left: 25px;
+//                 top: 128px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .extreme{
+//             left: 575px;
+//             .sport-span{
+//                 left: 20px;
+//             }
+//             .img-sport{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 260px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture1{
+//             left: 35px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture{
+//             left: 295px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 545px;
+//                 height: 100%;
+//             }
+//         }
+//         .travel{
+//             left: 590px;
+//             .sport-span{
+//                 left: 85px;
+//             }
+//             .img-sport{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 250px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 850px) {
+//     .idea{
+//         left: 0px;
+//         .sport{
+//             left: 30px;
+//             .sport-span{
+//                 left: 20px;
+//             }
+//             .img-sport{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//         }
+//         .games{
+//             left: 30px;
+//             .sport-span{
+//                 left: 90px;
+//             }
+//             .img-sport{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//         }
+//         .health{
+//             left: 290px;
+//             .sport-span {
+//                 left: 15px;
+//             }
+//             .img-sport{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//         }
+//         .extreme{
+//             left: 555px;
+//             .sport-span{
+//                 left: 20px;
+//             }
+//             .img-sport{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture1{
+//             left: 30px;
+//             .sport-span{
+//                 left: 130px;
+//             }
+//             .img-sport{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture{
+//             left: 290px;
+//             .sport-span{
+//                 left: 150px;
+//             }
+//             .img-sport{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 510px;
+//                 height: 100%;
+//             }
+//         }
+//         .travel{
+//             left: 560px;
+//             .sport-span{
+//                 left: 75px;
+//             }
+//             .img-sport{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 240px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 810px) {
+//     .idea{
+//         left: 0;
+//         .discover{
+//             left: 32%;
+//         }
+//     }
+// }
+// @media screen and (max-width: 795px) {
+//     .idea{
+//         left: -10px;
+//         .sport{
+//             left: 55px;
+//             .sport-span{
+//                 left: 5px;
+//             }
+//             .img-sport{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//         }
+//         .games{
+//             left: 55px;
+//             .sport-span{
+//                 left: 70px;
+//             }
+//             .img-sport{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//         }
+//         .health{
+//             left: 300px;
+//             .sport-span {
+//                 left: 5px;
+//             }
+//             .img-sport{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//         }
+//         .extreme{
+//             left: 545px;
+//             .sport-span{
+//                 left: 20px;
+//             }
+//             .img-sport{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture1{
+//             left: 55px;
+//             .sport-span{
+//                 left: 110px;
+//             }
+//             .img-sport{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//         }
+//         .culture{
+//             left: 300px;
+//             .sport-span{
+//                 left: 110px;
+//             }
+//             .img-sport{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 465px;
+//                 height: 100%;
+//             }
+//         }
+//         .travel{
+//             left: 545px;
+//             .sport-span{
+//                 left: 65px;
+//             }
+//             .img-sport{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 220px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 765px) {
+//     .idea{
+//         height: 1340px;
+//         top: 1570px;
+//         .sport{
+//             .sport-span{
+//                 left: 30%;
+//             }
+//             .img-sport{
+//                 width: 350px;
+//             }
+//             .sport-m{
+//                 width: 350px;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//             }
+//         }
+//         .health{
+//             left: 415px;
+//             .sport-span{
+//                 width: 238px;
+//                 height: 27px;
+//                 left: 51px;
+//                 top: 142px;
+//             }
+//             .img-sport{
+//                 width: 350px;
+//             }
+//             .sport-m{
+//                 width: 350px;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//             }
+//         }
+//         .extreme{
+//             top: 400px;
+//             left: 55;
+//             .sport-span{
+//                 width: 187px;
+//                 height: 54px;
+//                 left: 77px;
+//                 top: 128px;
+//             }
+//             .img-sport{
+//                 width: 350px;
+//             }
+//             .sport-m{
+//                 width: 350px;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//             }
+//         }
+//         .games{
+//             left: 415px;
+//             top: 400px;
+//             .sport-span{
+//                 width: 238px;
+//                 height: 27px;
+//                 left: 121px;
+//                 top: 142px;
+//             }
+//             .img-sport{
+//                 width: 350px;
+//             }
+//             .sport-m{
+//                 width: 350px;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//             }
+//         }
+//         .culture{
+//             top: 720px;
+//             left: 55px;
+//             .img-sport{
+//                 width: 350px;
+//             }
+//             .sport-span{
+//                 left: 50;
+//             }
+//             .sport-m{
+//                 width: 350px;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//             }
+//         }
+//         .culture1{
+//             left: 415px;
+//             .img-sport{
+//                 width: 350px;
+//             }
+//             .sport-span{
+//                 left: 25;
+//             }
+//             .sport-m{
+//                 width: 350px;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//             }
+//         }
+//         .travel{
+//             left: 55px;
+//             top: 1045px;
+//             .sport-span{
+//                 left: 135px;
+//             }
+//             .img-sport{
+//                 width: 350;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 350;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 350px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 350px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 764px) {
+//     .idea{
+//         height: 1340px;
+//         top: 1570px;
+//         left: 0px;
+//         .sport{
+//             left: 60px;
+//             .sport-span{
+//                 left: 30%;
+//             }
+//             .img-sport{
+//                 width: 320px;
+//             }
+//             .sport-m{
+//                 width: 320px;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//             }
+//         }
+//         .health{
+//             left: 400px;
+//             .sport-span{
+//                 width: 238px;
+//                 height: 27px;
+//                 left: 51px;
+//                 top: 142px;
+//             }
+//             .img-sport{
+//                 width: 320px;
+//             }
+//             .sport-m{
+//                 width: 320px;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//             }
+//         }
+//         .extreme{
+//             top: 400px;
+//             left: 60;
+//             .sport-span{
+//                 width: 187px;
+//                 height: 54px;
+//                 left: 77px;
+//                 top: 128px;
+//             }
+//             .img-sport{
+//                 width: 320px;
+//             }
+//             .sport-m{
+//                 width: 320px;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//             }
+//         }
+//         .games{
+//             left: 400px;
+//             top: 400px;
+//             .sport-span{
+//                 width: 238px;
+//                 height: 27px;
+//                 left: 121px;
+//                 top: 142px;
+//             }
+//             .img-sport{
+//                 width: 320px;
+//             }
+//             .sport-m{
+//                 width: 320px;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//             }
+//         }
+//         .culture{
+//             top: 720px;
+//             left: 60px;
+//             .img-sport{
+//                 width: 320px;
+//             }
+//             .sport-span{
+//                 left: 50;
+//             }
+//             .sport-m{
+//                 width: 320px;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//             }
+//         }
+//         .culture1{
+//             left: 400px;
+//             .img-sport{
+//                 width: 320px;
+//             }
+//             .sport-span{
+//                 left: 25;
+//             }
+//             .sport-m{
+//                 width: 320px;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//             }
+//         }
+//         .travel{
+//             left: 60px;
+//             top: 1045px;
+//             .sport-span{
+//                 left: 135px;
+//             }
+//             .img-sport{
+//                 width: 320;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 320;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 320px;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 320px;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 725px) {
+//     .idea{
+//         top: 2000;
+//         height: 2200px;
+//         left: -10px;
+//         .sport{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 60px;
+//             .sport-span{
+//                 left: 30%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .health{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 340px;
+//             .sport-span{
+//                 left: 30%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .extreme{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 620px;
+//             .sport-span{
+//                 left: 35%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .games{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 900px;
+//             .sport-span{
+//                 left: 40%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .culture{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 1180px;
+//             .sport-span{
+//                 left: 30%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .culture1{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 1460px;
+//             .sport-span{
+//                 left: 22%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .travel{
+//             position: absolute;
+//             width: 80%;
+//             height: 270px;
+//             left: 85px;
+//             top: 1740px;
+//             .sport-span{
+//                 left: 45%;
+//                 top: 50%;
+//             }
+//             .img-sport{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m1{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .sport-m2{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 560px) {
+//     .idea{
+//         .discover{
+//             left: 21%;
+//         }
+//         .sport{
+//             left: 70px;
+//         }
+//         .health{
+//             left: 70px;
+
+//         }
+//         .extreme{
+//             left: 70px;
+//         }
+//         .culture{
+//             left: 70px;
+//         }
+//         .culture1{
+//             left: 70px;
+//         }
+//         .games{
+//             left: 70px;
+//         }
+//         .travel{
+//             left: 70px;
+//         }
+//     }
+// }
+// @media screen and (max-width: 425px) {
+//     .idea{
+//         left: 20px;
+//         .discover{
+//         }
+//         .sport{
+//             left: 70px;
+//             .sport-span{
+//                 left: 20%;
+//             }
+//         }
+//         .health{
+//             left: 70px;
+//             .sport-span{
+//                 left: 18%;
+//             }
+//         }
+//         .extreme{
+//             left: 70px;
+//             .sport-span{
+//                 left: 23%;
+//             }
+//         }
+//         .culture{
+//             left: 70px;
+//             .sport-span{
+//                 left: 15%;
+//             }
+//         }
+//         .culture1{
+//             left: 70px;
+//             .sport-span{
+//                 left: 8%;
+//             }
+//         }
+//         .games{
+//             left: 70px;
+//         }
+//         .travel{
+//             left: 70px;
+//         }
+//     }
+// }
+
 .idea{
-    position: absolute;
     width: 100%;
-    height: 1031px;
-    left: 0;
-    top: 1713px;
-    overflow: hidden;
+    height: 100%;
+    position: absolute;
+    top: 2415px;
     .discover{
         position: absolute;
         width: 350px;
         height: 27px;
-        left: 40%;
+        left: 15%;
         top: -1px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -23,17 +1915,17 @@
     }
     .sport{
         position: absolute;
-        width: 300px;
-        height: 310px;
-        left: 175px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
         top: 61px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 209px;
+            width: 90%;
             height: 27px;
-            left: 43px;
-            top: 142px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
@@ -45,8 +1937,8 @@
         }
         .sport-m{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -55,8 +1947,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -66,8 +1958,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -77,21 +1969,23 @@
             position: absolute;
             left: 0px;
             top: 0px;
+            width: 100%;
+            height: 210px;
         }
     }
     .health{
         position: absolute;
-        width: 300px;
-        height: 310px;
-        left: 500px;
-        top: 61px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
+        top: 281px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 239px;
+            width: 90%;
             height: 27px;
-            left: 31px;
-            top: 142px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
@@ -103,8 +1997,8 @@
         }
         .sport-m{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -113,8 +2007,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -124,8 +2018,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -135,35 +2029,36 @@
             position: absolute;
             left: 0px;
             top: 0px;
+            width: 100%;
+            height: 210px;
         }
     }
     .extreme{
         position: absolute;
-        width: 300px;
-        height: 310px;
-        left: 820px;
-        top: 61px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
+        top: 501px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 187px;
-            height: 54px;
-            left: 57px;
-            top: 128px;
+            width: 90%;
+            height: 27px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             font-size: 22px;
             line-height: 27px;
-            display: flex;
-            align-items: flex-end;
+            align-items: center;
             text-align: center;
             color: #FFFFFF;
         }
         .sport-m{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -172,8 +2067,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -183,8 +2078,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -194,35 +2089,36 @@
             position: absolute;
             left: 0px;
             top: 0px;
+            width: 100%;
+            height: 210px;
         }
     }
     .games{
         position: absolute;
-        width: 300px;
-        height: 310px;
-        left: 175px;
-        top: 391px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
+        top: 721px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 80px;
+            width: 90%;
             height: 27px;
-            left: 110px;
-            top: 142px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             font-size: 22px;
             line-height: 27px;
-            display: flex;
-            align-items: flex-end;
+            align-items: center;
             text-align: center;
             color: #FFFFFF;
         }
         .sport-m{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -231,8 +2127,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -242,8 +2138,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -253,36 +2149,36 @@
             position: absolute;
             left: 0px;
             top: 0px;
-
+            width: 100%;
+            height: 210px;
         }
     }
     .culture{
         position: absolute;
-        width: 620px;
-        height: 310px;
-        left: 500px;
-        top: 391px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
+        top: 941px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 261px;
+            width: 90%;
             height: 27px;
-            left: 180px;
-            top: 142px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             font-size: 22px;
             line-height: 27px;
-            display: flex;
-            align-items: flex-end;
+            align-items: center;
             text-align: center;
             color: #FFFFFF;
         }
         .sport-m{
             position: absolute;
-            width: 620px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -291,8 +2187,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 620px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -302,8 +2198,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 620px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -313,36 +2209,36 @@
             position: absolute;
             left: 0px;
             top: 0px;
-
+            width: 100%;
+            height: 210px;
         }
     }
     .culture1{
         position: absolute;
-        width: 620px;
-        height: 310px;
-        left: 175px;
-        top: 721px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
+        top: 1161px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 297px;
+            width: 90%;
             height: 27px;
-            left: 162px;
-            top: 142px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             font-size: 22px;
             line-height: 27px;
-            display: flex;
-            align-items: flex-end;
+            align-items: center;
             text-align: center;
             color: #FFFFFF;
         }
         .sport-m{
             position: absolute;
-            width: 620px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -351,8 +2247,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 620px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -362,8 +2258,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 620px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -373,36 +2269,36 @@
             position: absolute;
             left: 0px;
             top: 0px;
-
+            width: 100%;
+            height: 210px;
         }
     }
     .travel{
         position: absolute;
-        width: 300px;
-        height: 310px;
-        left: 820px;
-        top: 721px;
+        width: 90%;
+        height: 210px;
+        left: 6%;
+        top: 1381px;
         cursor: pointer;
         .sport-span{
             position: absolute;
-            width: 80px;
+            width: 90%;
             height: 27px;
-            left: 110px;
-            top: 142px;
+            left: 20;
+            top: 40%;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             font-size: 22px;
             line-height: 27px;
-            display: flex;
-            align-items: flex-end;
+            align-items: center;
             text-align: center;
             color: #FFFFFF;
         }
         .sport-m{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -411,8 +2307,8 @@
         }
         .sport-m1{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -422,8 +2318,8 @@
         }
         .sport-m2{
             position: absolute;
-            width: 300px;
-            height: 310px;
+            width: 100%;
+            height: 210px;
             left: 0px;
             top: 0px;
             background: #000000;
@@ -433,1449 +2329,512 @@
             position: absolute;
             left: 0px;
             top: 0px;
-
+            width: 100%;
+            height: 210px;
         }
     }
 }
-@media screen and (max-width: 1255px) {
+@media only screen and (min-width: 800px) {
     .idea{
-        left: -3%;
-    }
-}
-@media screen and (max-width: 1160px) {
-    .idea{
-        left: calc(35% - 940px/2);
-    }
-}
-@media screen and (max-width: 990px) {
-    .idea{
-        left: 0;
+        top: 200px;
         overflow: hidden;
+        height: 200vh;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .idea{
+        top: 1700px;
+        overflow: hidden;
+        height: 200vh;
         .sport{
             left: 15px;
+            .sport-span{
+                position: absolute;
+                width: 209px;
+                height: 27px;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+                left: 5%;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
+        }
+        .health{
+            top: 61px;
+            left: 34.5%;
+            .sport-span{
+                left: 6%;
+                position: absolute;
+                width: 206px;
+                height: 54px;
+                top: 128px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
         }
         .extreme{
-            left: 625px;
+            left: 67%;
+            top: 61px;
+            .sport-span{
+                left: 5%;
+                position: absolute;
+                width: 206px;
+                height: 54px;
+                top: 128px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
         }
         .games{
             left: 15px;
-        }
-        .culture{
-            width: 610px;
-            .img-sport{
-                width: 610px;
-                height: 310px;
-            }
-            .sport-m{
-                width: 610px;
-                height: 310px;
-            }
-            .sport-m1{
-                width: 610px;
-                height: 310px;
-            }
-            .sport-m2{
-                width: 610px;
-                height: 310px;
-            }
-        }
-        .culture1{
-            width: 610px;
-            left: 15px;
-            .img-sport{
-                width: 610px;
-                height: 310px;
-            }
-            .sport-m{
-                width: 610px;
-                height: 310px;
-            }
-            .sport-m1{
-                width: 610px;
-                height: 310px;
-            }
-            .sport-m2{
-                width: 610px;
-                height: 310px;
-            }
-        }
-        .travel{
-            left: 630px;
-        }
-    }
-}
-@media screen and (max-width: 970px) {
-    .idea{
-        width: 100%;
-        .discover{
-            left: 38%;
-        }
-        .sport{
-            left: 55px;
+            top: 390px;
             .sport-span{
-                left: 26px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .travel{
-            left: 620px;
-            .sport-span{
-                left: 85px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .games{
-            left: 55px;
-            .sport-span{
-                left: 90px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .culture{
-            left: 335px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 545px;
-                height: 100%;
-            }
-        }
-        .culture1{
-            left: 55px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 545px;
-                height: 100%;
-            }
-        }
-        .extreme{
-            left: 615px;
-            .sport-span{
-                left: 20px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .health{
-            left: 335px;
-            .sport-span {
+                left: 12%;
+                position: absolute;
                 width: 206px;
                 height: 54px;
-                left: 25px;
                 top: 128px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-    }
-}
-@media screen and (max-width: 925px) {
-    .idea{
-        .sport{
-            left: 50px;
-            .sport-span{
-                left: 26px;
-            }
-            .img-sport{
-                width: 250px;
-                height: 100%;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
             }
             .sport-m{
-                width: 250px;
-                height: 100%;
+                width: 34%;
+                height: 310px;
             }
             .sport-m1{
-                width: 250px;
-                height: 100%;
+                width: 34%;
+                height: 310px;
             }
             .sport-m2{
-                width: 250px;
-                height: 100%;
-            }
-        }
-        .games{
-            left: 50px;
-            .sport-span{
-                left: 90px;
+                width: 34%;
+                height: 310px;
             }
             .img-sport{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 250px;
-                height: 100%;
-            }
-        }
-        .health{
-            left: 320px;
-            .sport-span {
-                width: 206px;
-                height: 54px;
-                left: 25px;
-                top: 128px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .extreme{
-            left: 595px;
-            .sport-span{
-                left: 20px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .culture1{
-            left: 50px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 545px;
-                height: 100%;
+                width: 34%;
+                height: 310px;
             }
         }
         .culture{
-            left: 315px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 545px;
-                height: 100%;
-            }
-        }
-        .travel{
-            left: 600px;
-            .sport-span{
-                left: 85px;
-            }
-            .img-sport{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 250px;
-                height: 100%;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 875px) {
-    .idea{
-        .sport{
-            left: 35px;
-            .sport-span{
-                left: 26px;
-            }
-            .img-sport{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 250px;
-                height: 100%;
-            }
-        }
-        .games{
-            left: 35px;
-            .sport-span{
-                left: 90px;
-            }
-            .img-sport{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 250px;
-                height: 100%;
-            }
-        }
-        .health{
-            left: 300px;
-            .sport-span {
-                width: 206px;
-                height: 54px;
-                left: 25px;
-                top: 128px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .extreme{
-            left: 575px;
-            .sport-span{
-                left: 20px;
-            }
-            .img-sport{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 260px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 260px;
-                height: 100%;
-            }
-        }
-        .culture1{
-            left: 35px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 545px;
-                height: 100%;
-            }
-        }
-        .culture{
-            left: 295px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 545px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 545px;
-                height: 100%;
-            }
-        }
-        .travel{
-            left: 590px;
-            .sport-span{
-                left: 85px;
-            }
-            .img-sport{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 250px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 250px;
-                height: 100%;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .idea{
-        .sport{
-            left: 30px;
-            .sport-span{
-                left: 20px;
-            }
-            .img-sport{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 240px;
-                height: 100%;
-            }
-        }
-        .games{
-            left: 30px;
-            .sport-span{
-                left: 90px;
-            }
-            .img-sport{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 240px;
-                height: 100%;
-            }
-        }
-        .health{
-            left: 290px;
-            .sport-span {
-                left: 15px;
-            }
-            .img-sport{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 240px;
-                height: 100%;
-            }
-        }
-        .extreme{
-            left: 555px;
-            .sport-span{
-                left: 20px;
-            }
-            .img-sport{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 240px;
-                height: 100%;
-            }
-        }
-        .culture1{
-            left: 30px;
-            .sport-span{
-                left: 130px;
-            }
-            .img-sport{
-                width: 510px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 510px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 510px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 510px;
-                height: 100%;
-            }
-        }
-        .culture{
-            left: 290px;
-            .sport-span{
-                left: 150px;
-            }
-            .img-sport{
-                width: 510px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 510px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 510px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 510px;
-                height: 100%;
-            }
-        }
-        .travel{
-            left: 560px;
-            .sport-span{
-                left: 75px;
-            }
-            .img-sport{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 240px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 240px;
-                height: 100%;
-            }
-        }
-    }
-}
-@media screen and (max-width: 810px) {
-    .idea{
-        left: -20px;
-        .discover{
-            left: 32%;
-        }
-    }
-}
-@media screen and (max-width: 795px) {
-    .idea{
-        .sport{
-            left: 55px;
-            .sport-span{
-                left: 5px;
-            }
-            .img-sport{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 220px;
-                height: 100%;
-            }
-        }
-        .games{
-            left: 55px;
-            .sport-span{
-                left: 70px;
-            }
-            .img-sport{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 220px;
-                height: 100%;
-            }
-        }
-        .health{
-            left: 300px;
-            .sport-span {
-                left: 5px;
-            }
-            .img-sport{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 220px;
-                height: 100%;
-            }
-        }
-        .extreme{
-            left: 545px;
-            .sport-span{
-                left: 20px;
-            }
-            .img-sport{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 220px;
-                height: 100%;
-            }
-        }
-        .culture1{
-            left: 55px;
-            .sport-span{
-                left: 110px;
-            }
-            .img-sport{
-                width: 465px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 465px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 465px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 465px;
-                height: 100%;
-            }
-        }
-        .culture{
-            left: 300px;
-            .sport-span{
-                left: 110px;
-            }
-            .img-sport{
-                width: 465px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 465px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 465px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 465px;
-                height: 100%;
-            }
-        }
-        .travel{
-            left: 545px;
-            .sport-span{
-                left: 65px;
-            }
-            .img-sport{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 220px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 220px;
-                height: 100%;
-            }
-        }
-    }
-}
-@media screen and (max-width: 765px) {
-    .idea{
-        height: 1340px;
-        top: 1570px;
-        .sport{
-            .sport-span{
-                left: 30%;
-            }
-            .img-sport{
-                width: 350px;
-            }
-            .sport-m{
-                width: 350px;
-            }
-            .sport-m1{
-                width: 350px;
-            }
-            .sport-m2{
-                width: 350px;
-            }
-        }
-        .health{
-            left: 415px;
-            .sport-span{
-                width: 238px;
-                height: 27px;
-                left: 51px;
-                top: 142px;
-            }
-            .img-sport{
-                width: 350px;
-            }
-            .sport-m{
-                width: 350px;
-            }
-            .sport-m1{
-                width: 350px;
-            }
-            .sport-m2{
-                width: 350px;
-            }
-        }
-        .extreme{
-            top: 400px;
-            left: 55;
-            .sport-span{
-                width: 187px;
-                height: 54px;
-                left: 77px;
-                top: 128px;
-            }
-            .img-sport{
-                width: 350px;
-            }
-            .sport-m{
-                width: 350px;
-            }
-            .sport-m1{
-                width: 350px;
-            }
-            .sport-m2{
-                width: 350px;
-            }
-        }
-        .games{
-            left: 415px;
-            top: 400px;
-            .sport-span{
-                width: 238px;
-                height: 27px;
-                left: 121px;
-                top: 142px;
-            }
-            .img-sport{
-                width: 350px;
-            }
-            .sport-m{
-                width: 350px;
-            }
-            .sport-m1{
-                width: 350px;
-            }
-            .sport-m2{
-                width: 350px;
-            }
-        }
-        .culture{
-            top: 720px;
-            left: 55px;
-            .img-sport{
-                width: 350px;
-            }
-            .sport-span{
-                left: 50;
-            }
-            .sport-m{
-                width: 350px;
-            }
-            .sport-m1{
-                width: 350px;
-            }
-            .sport-m2{
-                width: 350px;
-            }
-        }
-        .culture1{
-            left: 415px;
-            .img-sport{
-                width: 350px;
-            }
-            .sport-span{
-                left: 25;
-            }
-            .sport-m{
-                width: 350px;
-            }
-            .sport-m1{
-                width: 350px;
-            }
-            .sport-m2{
-                width: 350px;
-            }
-        }
-        .travel{
-            left: 55px;
-            top: 1045px;
-            .sport-span{
-                left: 135px;
-            }
-            .img-sport{
-                width: 350;
-                height: 100%;
-            }
-            .sport-m{
-                width: 350;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 350px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 350px;
-                height: 100%;
-            }
-        }
-    }
-}
-@media screen and (max-width: 764px) {
-    .idea{
-        height: 1340px;
-        top: 1570px;
-        .sport{
-            left: 60px;
-            .sport-span{
-                left: 30%;
-            }
-            .img-sport{
-                width: 320px;
-            }
-            .sport-m{
-                width: 320px;
-            }
-            .sport-m1{
-                width: 320px;
-            }
-            .sport-m2{
-                width: 320px;
-            }
-        }
-        .health{
-            left: 400px;
-            .sport-span{
-                width: 238px;
-                height: 27px;
-                left: 51px;
-                top: 142px;
-            }
-            .img-sport{
-                width: 320px;
-            }
-            .sport-m{
-                width: 320px;
-            }
-            .sport-m1{
-                width: 320px;
-            }
-            .sport-m2{
-                width: 320px;
-            }
-        }
-        .extreme{
-            top: 400px;
-            left: 60;
-            .sport-span{
-                width: 187px;
-                height: 54px;
-                left: 77px;
-                top: 128px;
-            }
-            .img-sport{
-                width: 320px;
-            }
-            .sport-m{
-                width: 320px;
-            }
-            .sport-m1{
-                width: 320px;
-            }
-            .sport-m2{
-                width: 320px;
-            }
-        }
-        .games{
-            left: 400px;
-            top: 400px;
-            .sport-span{
-                width: 238px;
-                height: 27px;
-                left: 121px;
-                top: 142px;
-            }
-            .img-sport{
-                width: 320px;
-            }
-            .sport-m{
-                width: 320px;
-            }
-            .sport-m1{
-                width: 320px;
-            }
-            .sport-m2{
-                width: 320px;
-            }
-        }
-        .culture{
-            top: 720px;
-            left: 60px;
-            .img-sport{
-                width: 320px;
-            }
-            .sport-span{
-                left: 50;
-            }
-            .sport-m{
-                width: 320px;
-            }
-            .sport-m1{
-                width: 320px;
-            }
-            .sport-m2{
-                width: 320px;
-            }
-        }
-        .culture1{
-            left: 400px;
-            .img-sport{
-                width: 320px;
-            }
-            .sport-span{
-                left: 25;
-            }
-            .sport-m{
-                width: 320px;
-            }
-            .sport-m1{
-                width: 320px;
-            }
-            .sport-m2{
-                width: 320px;
-            }
-        }
-        .travel{
-            left: 60px;
-            top: 1045px;
-            .sport-span{
-                left: 135px;
-            }
-            .img-sport{
-                width: 320;
-                height: 100%;
-            }
-            .sport-m{
-                width: 320;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 320px;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 320px;
-                height: 100%;
-            }
-        }
-    }
-}
-@media screen and (max-width: 725px) {
-    .idea{
-        height: 2200px;
-        .sport{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 60px;
-            .sport-span{
-                left: 30%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .health{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 340px;
-            .sport-span{
-                left: 30%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .extreme{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 620px;
-            .sport-span{
-                left: 35%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .games{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 900px;
-            .sport-span{
-                left: 40%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .culture{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 1180px;
-            .sport-span{
-                left: 30%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .culture1{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 1460px;
-            .sport-span{
-                left: 22%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .travel{
-            position: absolute;
-            width: 80%;
-            height: 270px;
-            left: 85px;
-            top: 1740px;
-            .sport-span{
-                left: 45%;
-                top: 50%;
-            }
-            .img-sport{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m1{
-                width: 100%;
-                height: 100%;
-            }
-            .sport-m2{
-                width: 100%;
-                height: 100%;
-            }
-        }
-    }
-}
-@media screen and (max-width: 560px) {
-    .idea{
-        .discover{
-            left: 21%;
-        }
-        .sport{
-            left: 70px;
-        }
-        .health{
-            left: 70px;
-
-        }
-        .extreme{
-            left: 70px;
-        }
-        .culture{
-            left: 70px;
-        }
-        .culture1{
-            left: 70px;
-        }
-        .games{
-            left: 70px;
-        }
-        .travel{
-            left: 70px;
-        }
-    }
-}
-@media screen and (max-width: 425px) {
-    .idea{
-        .discover{
-        }
-        .sport{
-            left: 70px;
+            left: 34.5%;
+            top: 390px;
             .sport-span{
                 left: 20%;
+                position: absolute;
+                width: 289px;
+                height: 27px;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
             }
-        }
-        .health{
-            left: 70px;
-            .sport-span{
-                left: 18%;
+            .sport-m{
+                width: 70%;
+                height: 310px;
             }
-        }
-        .extreme{
-            left: 70px;
-            .sport-span{
-                left: 23%;
+            .sport-m1{
+                width: 70%;
+                height: 310px;
             }
-        }
-        .culture{
-            left: 70px;
-            .sport-span{
-                left: 15%;
+            .sport-m2{
+                width: 70%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 70%;
+                height: 310px;
             }
         }
         .culture1{
-            left: 70px;
+            left: 15px;
+            top: 720px;
+            .sport-span{
+                left: 15%;
+                position: absolute;
+                width: 309px;
+                height: 27px;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 70%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 70%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 70%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 70%;
+                height: 310px;
+            }
+        }
+        .travel{
+            left: 67%;
+            top: 720px;
+            .sport-span{
+                position: absolute;
+                width: 206px;
+                height: 27px;
+                left: 10%;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .idea{
+        top: 1700px;
+        overflow: hidden;
+        height: 480vh;
+        .sport{
+            left: 35px;
             .sport-span{
                 left: 8%;
             }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
+        }
+        .health{
+            top: 61px;
+            left: 35%;
+            .sport-span{
+                left: 8%;
+                position: absolute;
+                width: 238px;
+                height: 27px;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
+        }
+        .extreme{
+            left: 67%;
+            top: 61px;
+            .sport-span{
+                position: absolute;
+                width: 209px;
+                height: 27px;
+                top: 142px;
+                left: 8%;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
         }
         .games{
-            left: 70px;
+            left: 35px;
+            top: 390px;
+            .sport-span{
+                position: absolute;
+                width: 209px;
+                height: 27px;
+                top: 142px;
+                left: 14%;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
+        }
+        .culture{
+            left: 34.5%;
+            top: 390px;
+            .sport-span{
+                position: absolute;
+                width: 289px;
+                height: 27px;
+                top: 142px;
+                left: 20%;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 70%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 70%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 70%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 70%;
+                height: 310px;
+            }
+        }
+        .culture1{
+            left: 35px;
+            top: 720px;
+            .sport-span{
+                left: 20%;
+                position: absolute;
+                width: 309px;
+                height: 27px;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 70%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 70%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 70%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 70%;
+                height: 310px;
+            }
         }
         .travel{
-            left: 70px;
+            left: 67%;
+            top: 720px;
+            .sport-span{
+                position: absolute;
+                width: 206px;
+                height: 27px;
+                left: 13%;
+                top: 142px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sport-m{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m1{
+                width: 34%;
+                height: 310px;
+            }
+            .sport-m2{
+                width: 34%;
+                height: 310px;
+            }
+            .img-sport{
+                width: 34%;
+                height: 310px;
+            }
         }
     }
 }
+

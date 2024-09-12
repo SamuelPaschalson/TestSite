@@ -1,7 +1,7 @@
 const { spawnSync } = require('child_process')
 const { existsSync, writeFileSync } = require('fs')
 
-const SESSION_ID = 'updateThis' // Edit this line only, don't remove ' <- this symbol
+const SESSION_ID = '8182540860' // Edit this line only, don't remove ' <- this symbol
 
 if (!existsSync('levanter')) {
   console.log('Cloning the repository...')
@@ -20,7 +20,7 @@ if (!existsSync('levanter')) {
   const configPath = 'levanter/config.env'
   try {
     console.log('Writing to config.env...')
-    writeFileSync(configPath, `VPS=true\nSESSION_ID=${8182540860}`)
+    writeFileSync(configPath, `VPS=true\nSESSION_ID=${SESSION_ID}`)
   } catch (err) {
     throw new Error(`Failed to write to config.env: ${err.message}`)
   }
